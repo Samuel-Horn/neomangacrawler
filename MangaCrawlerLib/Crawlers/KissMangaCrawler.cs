@@ -67,7 +67,7 @@ namespace MangaCrawlerLib.Crawlers
                                 page, 
                                 i, 
                                 page_series[i].InnerText,
-                                "http://kissmanga.com" + page_series[i].GetAttributeValue("href", ""));
+                                "http://kissmanga.org" + page_series[i].GetAttributeValue("href", ""));
 
                             series.Add(s);
                         }
@@ -112,7 +112,7 @@ namespace MangaCrawlerLib.Crawlers
             var result = (from chapter in chapters
                           select new Chapter(
                               a_serie,
-                              "http://kissmanga.com" + chapter.GetAttributeValue("href", ""), 
+                              "http://kissmanga.org" + chapter.GetAttributeValue("href", ""), 
                               chapter.InnerText)).ToList();
 
             a_progress_callback(100, result);
@@ -147,7 +147,7 @@ namespace MangaCrawlerLib.Crawlers
 
         public override string GetServerURL()
         {
-            return "http://kissmanga.com/MangaList";
+            return "http://kissmanga.org/manga_list";
         }
 
         internal override string GetImageURL(Page a_page)

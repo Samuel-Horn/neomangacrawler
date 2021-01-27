@@ -27,13 +27,13 @@ Name: "en"; MessagesFile: "compiler:Default.isl"
 Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{cm:AdditionalIcons}"; Flags: unchecked
 
 [Files]
-Source: "D:\Programowanie\C#\Moje programy\MangaCrawler\MangaCrawler\bin\Release\Ionic.Zip.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "D:\Programowanie\C#\Moje programy\MangaCrawler\MangaCrawler\bin\Release\HtmlAgilityPack.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "D:\Programowanie\C#\Moje programy\MangaCrawler\MangaCrawler\bin\Release\log4net.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "D:\Programowanie\C#\Moje programy\MangaCrawler\MangaCrawler\bin\Release\MangaCrawler.exe"; DestDir: "{app}"; Flags: ignoreversion
-Source: "D:\Programowanie\C#\Moje programy\MangaCrawler\MangaCrawler\bin\Release\MangaCrawler.exe.config"; DestDir: "{app}"; Flags: ignoreversion
-Source: "D:\Programowanie\C#\Moje programy\MangaCrawler\MangaCrawler\bin\Release\MangaCrawlerLib.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "D:\Programowanie\C#\Moje programy\MangaCrawler\MangaCrawler\bin\Release\TomanuExtensions.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Samuel Horn\Documents\projects\mangacrawler\MangaCrawler\bin\debug\Ionic.Zip.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Samuel Horn\Documents\projects\mangacrawler\MangaCrawler\bin\debug\HtmlAgilityPack.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Samuel Horn\Documents\projects\mangacrawler\MangaCrawler\bin\debug\log4net.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Samuel Horn\Documents\projects\mangacrawler\MangaCrawler\bin\debug\MangaCrawler.exe"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Samuel Horn\Documents\projects\mangacrawler\MangaCrawler\bin\debug\MangaCrawler.exe.config"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Samuel Horn\Documents\projects\mangacrawler\MangaCrawler\bin\debug\MangaCrawlerLib.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Samuel Horn\Documents\projects\mangacrawler\MangaCrawler\bin\debug\TomanuExtensions.dll"; DestDir: "{app}"; Flags: ignoreversion
 
 [Icons]
 Name: "{group}\{#AppName}"; Filename: "{app}\MangaCrawler.exe"
